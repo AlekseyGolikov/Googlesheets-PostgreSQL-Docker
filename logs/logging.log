@@ -1,0 +1,372 @@
+logs - 17883- INFO - Настройка логгирования окончена!
+logs - 17883- DEBUG - Запустился процесс 1
+logs - 17883- DEBUG - Запустился процесс 2
+logs - 17890- DEBUG - ---Исполняется процесс 2---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Первый вызов функции getCourseUSD()---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---
+logs - 17892- DEBUG - ---Исполняется процесс 1---
+logs - 17892- DEBUG - ---Вызвана функция updateTableDB---
+logs - 17892- DEBUG - ---Однократный вызов функции getCourseUSD() в начале следующих суток---
+logs - 17892- DEBUG - ---Курс доллара США на сегодня = 60.258---
+logs - 17892- DEBUG - [1, 1249708, 675.0, 40674.15, datetime.datetime(2022, 5, 24, 0, 0)]
+logs - 17892- DEBUG - [2, 1182407, 214.0, 12895.21, datetime.datetime(2022, 5, 13, 0, 0)]
+logs - 17892- DEBUG - [3, 1120833, 610.0, 36757.38, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [4, 1060503, 1804.0, 108705.43, datetime.datetime(2022, 5, 29, 0, 0)]
+logs - 17892- DEBUG - [5, 1617397, 423.0, 25489.13, datetime.datetime(2022, 5, 26, 0, 0)]
+logs - 17892- DEBUG - [6, 1135907, 682.0, 41095.96, datetime.datetime(2022, 5, 2, 0, 0)]
+logs - 17892- DEBUG - [7, 1235370, 1330.0, 80143.14, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [8, 1329994, 646.0, 38926.67, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [9, 1876515, 1335.0, 80444.43, datetime.datetime(2022, 5, 15, 0, 0)]
+logs - 17892- DEBUG - [10, 1835607, 1227.0, 73936.57, datetime.datetime(2022, 5, 5, 0, 0)]
+logs - 17892- DEBUG - [11, 1465034, 719.0, 43325.5, datetime.datetime(2022, 5, 12, 0, 0)]
+logs - 17892- DEBUG - [12, 1077923, 508.0, 30611.06, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [13, 1968041, 1600.0, 96412.8, datetime.datetime(2022, 5, 21, 0, 0)]
+logs - 17892- DEBUG - [14, 1682035, 1867.0, 112501.69, datetime.datetime(2022, 5, 9, 0, 0)]
+logs - 17892- DEBUG - [15, 1911795, 1585.0, 95508.93, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - [16, 1028782, 1377.0, 82975.27, datetime.datetime(2022, 5, 19, 0, 0)]
+logs - 17892- DEBUG - [17, 1686040, 129.0, 7773.28, datetime.datetime(2022, 6, 1, 0, 0)]
+logs - 17892- DEBUG - [18, 1917698, 1322.0, 79661.08, datetime.datetime(2022, 5, 25, 0, 0)]
+logs - 17892- DEBUG - ---Конец записи данных в БД---

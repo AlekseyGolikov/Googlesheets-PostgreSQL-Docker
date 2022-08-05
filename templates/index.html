@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мое приложение на Flask</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>№</td>
+            <td>заказ №</td>
+            <td>Стоимость, $</td>
+            <td>Стоимость, руб.</td>
+            <td>Срок поставки</td>
+        </tr>
+        {% for row in data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
