@@ -7,6 +7,7 @@ from service.googlesheets_init import GoogleSheets
 from service.db_operations import selectDataFromDB, updateTableDB, checkDateForExpiration
 import time
 import logs
+# from threading import Thread, Lock
 
 
 app = Flask(__name__)
@@ -63,14 +64,16 @@ def notify_date_expired():
 
 if __name__ == '__main__':
 
-    lock = Manager().Lock()
-    #lock = multiprocessing.Lock()
+    lock = Manager().RLock()
+    # lock = Lock()
 
     # notify_date_expired()
 
     procs = []
     procs.append(Process(target=server, args=(lock,)))
     procs.append(Process(target=get_sheet, args=(lock,)))
+    # procs.append(Thread(target=server, args=(lock,)))
+    # procs.append(Thread(target=get_sheet, args=(lock,)))
 
 
     for i,proc in enumerate(procs):
